@@ -66,7 +66,7 @@ export default function SettingsScreen() {
               text="Chat-Bot"
               onPress={() => {
                 console.log("Navegar a Chat-Bot");
-                navigateTo("/chat-bot");
+                navigateTo("/help/helpcenter");
               }}
             />
             <View className="border-b border-[#3a3f44] my-2" />
